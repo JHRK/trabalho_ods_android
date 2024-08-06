@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    tools:context=".ODS13">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ods_13"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="O objetivo 13 aborda várias ações para enfrentar as mudanças climáticas e desastres naturais: "
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="1. **Fortalecimento da Resiliência**: Aumentar a capacidade dos países de se adaptarem a riscos climáticos e desastres naturais. "
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="2. **Integração nas Políticas**: Incorporar medidas de mudança climática nas políticas e planejamentos nacionais. "
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="3. **Educação e Conscientização**: Melhorar a educação e a conscientização sobre mitigação, adaptação e alertas sobre mudanças climáticas. "
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="4. **Financiamento**: Cumprir a meta de mobilizar US$ 100 bilhões anuais para apoiar países em desenvolvimento e operacionalizar o Fundo Verde para o Clima. "
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="540dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="5. **Capacitação em Países Menos Desenvolvidos**: Criar mecanismos para planejamento e gestão eficazes relacionados ao clima, com foco em grupos vulneráveis como mulheres, jovens e comunidades marginalizadas. "
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="623dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="______________________________________________________________"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
