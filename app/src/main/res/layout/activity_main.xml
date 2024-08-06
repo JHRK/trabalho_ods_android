@@ -4,15 +4,95 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FC5AA0D7"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="159dp"
+        android:layout_height="379dp"
+        app:srcCompat="@drawable/ods_14"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="-92dp" />
+
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="____________________________________________________________"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="O Objetivo 14 da Agenda 2030 visa a conservação e o uso sustentável dos oceanos, mares e recursos marinhos para o desenvolvimento sustentável. Os principais pontos são: "
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="1. **Reduzir a Poluição**: Até 2025, diminuir significativamente a poluição marinha, especialmente de atividades terrestres. "
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="2. **Proteger Ecossistemas**: Até 2020, gerenciar e proteger os ecossistemas marinhos e costeiros, reforçar sua resiliência e restaurar áreas afetadas. "
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="3. **Combater Acidificação**: Enfrentar a acidificação dos oceanos e promover a cooperação científica. "
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="422dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="4. **Regulamentar Pesca**: Até 2020, regular a pesca, acabar com práticas destrutivas e restaurar populações de peixes para níveis sustentáveis. "
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="465dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="5. **Conservação das Áreas Marinhas**: Até 2020, conservar pelo menos 10% das zonas costeiras e marinhas com base em informações científicas. "
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="529dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="6. **Subsídios à Pesca**: Proibir subsídios que contribuem para a sobrepesca e pesca ilegal e garantir que novos subsídios não exacerbem esses problemas. "
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="593dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="7. **Benefícios Econômicos para Estados Insulares**: Até 2030, aumentar os benefícios econômicos para pequenos Estados insulares e países menos desenvolvidos a partir do uso sustentável dos recursos marinhos. "
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="649dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
