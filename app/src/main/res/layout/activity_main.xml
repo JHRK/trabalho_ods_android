@@ -4,15 +4,58 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E656BF2B"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="155dp"
+        android:layout_height="307dp"
+        app:srcCompat="@drawable/sdg_15"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="53dp" />
+
     <TextView
+        android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="_______________________________________________________________"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="302dp" />
 
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="O Objetivo 15 visa proteger, recuperar e promover o uso sustentável dos ecossistemas terrestres e das florestas, combater a desertificação, reverter a degradação da terra e preservar a biodiversidade. Especificamente: "
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="- **Até 2020:** Conservar e recuperar ecossistemas terrestres e de água doce; promover a gestão sustentável das florestas; combater a perda de biodiversidade e proteger espécies ameaçadas; controlar espécies invasoras; e integrar o valor dos ecossistemas nas políticas e planejamento. "
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="419dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="- **Até 2030:** Restaurar terras e solos degradados, especialmente os afetados por desertificação e secas, e garantir a conservação dos ecossistemas de montanha. "
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="- **A longo prazo:** Mobilizar recursos financeiros para conservação e manejo sustentável dos ecossistemas e florestas; combater a caça ilegal e o tráfico de espécies; e aumentar o apoio global e local para esforços relacionados à biodiversidade e desenvolvimento sustentável. "
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="599dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
