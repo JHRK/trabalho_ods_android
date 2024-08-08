@@ -37,7 +37,7 @@
             android:name=".ODS4"
             android:exported="false" />
         <activity
-            android:name=".ODS5"
+            android:name=".ods5"
             android:exported="false" />
         <activity
             android:name=".ODS7"
