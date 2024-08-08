@@ -13,6 +13,10 @@
         android:theme="@style/Theme.ODS"
         tools:targetApi="31">
         <activity
+            android:name=".ODS6"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2aODS6"
             android:name=".ODS17"
             android:exported="false" />
             android:name=".ODS16"
@@ -34,9 +38,6 @@
             android:exported="false" />
         <activity
             android:name=".ODS5"
-            android:exported="false" />
-        <activity
-            android:name=".ODS6"
             android:exported="false" />
         <activity
             android:name=".ODS7"
@@ -70,6 +71,7 @@
             android:exported="false" />
         <activity
             android:name=".ODS17"
+
             android:exported="false" />
         <activity
             android:name=".MainActivity"
