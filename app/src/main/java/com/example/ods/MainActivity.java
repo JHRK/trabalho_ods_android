@@ -17,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        btn_ods1 = findViewById()
+
         btnODS1 = findViewById(R.id.btnODS1);
         btnODS1.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
@@ -136,5 +138,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(tela11);
             }
         });
+
     }
 }

@@ -19,6 +19,14 @@ android:background="#A6464E"
     android:backgroundTint="#2196F3"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="181dp"
+        android:layout_height="71dp"
+        android:text="ODS 1 "
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="134dp" />
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="157dp"
